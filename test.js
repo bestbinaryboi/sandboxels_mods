@@ -1,5 +1,5 @@
-elements.amogus = {
-	name: "Amogus",
+elements.womp = {
+	name: "womp",
 	color: "#ffffff",
 	cooldown: 6,
 	tick: function(pixel) {
@@ -47,23 +47,9 @@ elements.amogus = {
 			}
 		}
 	},
-	category:"structures",
+	category:"life",
 	insulate: true,
 	state: "solid",
 	excludeRandom: true,
 },
 
-elements.amogus_seed = {
-	name: "Amogus Seed",
-	color: "#df2f47",
-	cooldown: 6,
-	behavior: [
-		"DL:amogus_seed|DL:amogus_seed AND M2|DL:amogus_seed",
-		"DL:amogus_seed|C2:amogus|DL:amogus_seed",
-		"DL:amogus_seed|SW:amogus_seed AND DL:amogus_seed AND M1|DL:amogus_seed"
-	],
-	category:"structures",
-	insulate: true,
-	state: "solid",
-	density: 2018,
-}
